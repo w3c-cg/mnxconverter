@@ -10,7 +10,7 @@ actively designed — so anything in this code might change.
 
 This converter is also very limited in scope at the moment.
 So far, it only reliably converts the types of notations
-described in [Comparing MNX and MusicXML](https://w3c.github.io/mnx/docs/comparisons/musicxml/).
+described in [Comparing MNX and MusicXML](https://w3c-cg.github.io/mnx/docs/comparisons/musicxml/).
 
 ## Goals and non-goals
 
@@ -24,7 +24,7 @@ are the data structures to understand and work with?
 * Get developers involved in the design process for
 MNX. Play with this code, see what it generates
 for your MusicXML files, consider how easy (or not)
-the concepts are to think about — then [tell us](https://github.com/w3c/mnx/issues)
+the concepts are to think about — then [tell us](https://github.com/w3c-cg/mnx/issues)
 what needs to change.
 
 * Eventually serve as a fully featured, production-ready
@@ -64,7 +64,7 @@ help we want:
 1. **Feedback on concepts.** Read through the abstractions
 in `mnxconverter/score.py`. These classes are very closely
 aligned with the concepts of the
-[MNX specification](https://w3c.github.io/mnx/docs/)
+[MNX specification](https://w3c-cg.github.io/mnx/docs/)
 in general. Do they make sense? And do you envision it
 would be doable to integrate MNX in your notation
 app — for both import and export?
